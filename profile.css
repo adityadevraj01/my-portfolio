@@ -1,0 +1,262 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home{
+    background-color:rgba(25, 21, 21, 0.941);
+    padding-bottom: 1px;
+    padding-left: 5px;
+    margin-left: -5px;
+    margin-top: -5px;
+    margin-right: -5px;
+    padding-bottom: 5px;
+    height:23mm;
+}
+.topmenu{
+    color:rgb(255, 255, 255);
+    margin:10px;
+    padding:10px;
+    font-size: 20px;
+    text-decoration:none;
+}
+.topmenu:hover{
+    color: rgb(148, 234, 255);
+    text-decoration:underline;
+}
+.topdiv{
+    float:right;
+    padding-bottom: 20px;
+    padding-right: 1cm;
+    padding-top: 20px;
+}
+#profile_name{
+    float: left;
+    color:white;
+    font-size: 25px;
+    padding-top:3px;
+
+}
+.contact_info {
+    font-size: 15px;
+    color:white;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .container{
+    display: flex;
+}
+#about-me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#about-me h2{
+    color:rgb(183, 30, 30);
+    margin-top: 90p;   
+    margin-left: 15px;
+
+}
+#about-me p{
+    color:rgb(97, 48, 48);
+    margin-left: 20px;
+
+}
+
+#photo{
+    padding-top: 5px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+#table{
+    border:solid;
+    border-collapse: collapse;
+    width: 70%;
+}
+td,th{
+    padding: 8px;
+    border: solid;
+    background-color: rgb(206, 240, 248);
+    text-align: center;
+}
+#Education h2{
+    color:rgb(110, 88, 62);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: aliceblue;
+}
+#skill{
+    flex-direction: row;
+    display: flex;
+    flex-flow: wrap;
+}
+.skills{
+    border:1px solid;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin:8px;
+    padding:10px;
+    width:2in;
+    font-size: 20px;
+    box-shadow: 1px 3px 10px gray;
+}
+.skills h6{
+    align-items: center;
+    font-size: 20px;
+    margin-block-start: 8px;
+    margin-block-end: 5px;
+}
+.skills p{
+    font-size: 15px;
+    color: rgb(154, 97, 97);
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+#skil{
+font-size: 40px;
+color:rgb(110, 88, 62);
+background-color: aliceblue;
+}
+.project-card{
+    margin-left:10px;
+    padding-left: 5px;
+}
+.project-card h3{
+    color:rgb(62, 103, 103);
+    font-size: 25px;
+}
+.projects h2{
+    color:rgb(110, 88, 62);
+    font-size: 40px;
+    background-color: aliceblue;
+}
+#all_recommendation{
+    display:flex;
+    align-items: center;
+    margin-left: 0.5in;
+    flex-direction: row;
+    flex-flow:wrap;
+    padding:10px;
+}
+.recommendation{
+    font-style:italic;
+    text-align:left;
+    border-radius: 11px;
+    box-shadow: 0px 2px 5px grey;
+    width:300px;
+    padding:20px;
+    margin:10px;
+    font-size: 18px;
+}
+#recommendations h2{
+    font-size:40px;
+    color:rgb(110, 88, 62);
+    background-color: aliceblue;
+}
+#form{
+    width:100px;
+}
+#iconbutton{
+    border-radius: 8px;
+    float: right;
+background-color: black;
+    margin-bottom: 20px;
+}
+
+.popup {
+    width:400px;
+    background-color: #e8bcf0;
+    border-radius: 3mm;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: fixed;
+    /* padding: 30px; */
+    visibility: hidden;
+  }
+  
+  .popup img {
+    padding-top: 20px;
+  }
+  
+  .popup button {
+    background-color: #fff;
+    border: 1px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    margin-left: 25%;
+  }
+  
+  .popup button:hover {
+    background-color: #d10707;
+    border: 2px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25%;
+  }
+input,textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 5px 8px aliceblue;
+    background-color: aliceblue;
+    margin: 5px;
+}
+.flex-centre{
+    float:left;
+}
+#form{
+    display: flex;
+
+
+}
+fieldset{
+    display: flexbox;
+    align-content: center;
+    justify-content: center;
+    padding: 25px;
+    margin-left: 150px;
+    margin-right: 50px;
+    width: 50%;
+
+    border:thin solid white;
+}
+#recommend_btn{
+    background-color: aliceblue;
+    border:thin solid black;
+    box-shadow: 0 2px 3px black;
+    border-radius: 4px;
+    font-size: 17px;
+    margin-left:520px;
+    padding: 4px;
+
+}
+#recommend_btn:hover{
+    background-color: rgb(148, 234, 255);
+    cursor: pointer;
+    border-radius: 4px;
+}
+.introduction{
+    text-align: justify;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    animation-duration: 5s;
+    position: relative;
+    text-decoration: underline;
+}
+#leftarrow{
+    float:right;
+   margin-top: 120px;
+}
