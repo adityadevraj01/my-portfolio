@@ -1,0 +1,17 @@
+Add a profile photo to the U1 — ABOUT chip, styled as a "silicon die" — the square chip die you see when an IC's top is removed.
+
+Placement: top-right area of the U1 chip, inside the chip border, with the About text wrapping to its left.
+
+Styling:
+- Square aspect ratio, ~180px on desktop, ~120px on mobile
+- Thin neon green (#00ff88) border, 1px, with soft outer glow
+- Inner bevel: 4px dark green inset to suggest the die is recessed into the package
+- Subtle green tint overlay on the photo (mix-blend-mode or a low-opacity green layer) so it matches the PCB palette — but keep the face clearly visible, don't over-tint
+- Tiny corner registration marks (L-shaped brackets) at each corner of the photo, like alignment marks on a real die
+- Caption below in mono: "DIE · ADC-01" in green
+- 4–6 bond-wire traces radiating from the photo edges out to nearby pin labels (thin lines with small solder dots where they meet the chip border) — this visually wires the photo into the chip
+- On hover: photo's green border pulses brighter (same flicker effect as the project chips)
+
+Image source: use the path /assets/profile.jpg as a placeholder — I'll swap in my actual photo there.
+
+Do not crop the face awkwardly; if the source is portrait, use object-fit: cover with object-position: center top.
